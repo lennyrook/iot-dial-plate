@@ -1,4 +1,3 @@
-import logo from './data/images/logo.svg';
 import DialPlate from './components/dialPlate/DialPlate';
 
 import './App.css';
@@ -9,7 +8,7 @@ function App() {
             <header className="App-header">
                 <p>IoT Dial Plate</p>
             </header>
-            <div className="body">
+            <div className="App-body">
                 <DialPlate />
             </div>
         </div>

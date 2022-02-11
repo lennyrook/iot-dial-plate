@@ -1,0 +1,27 @@
+.devices-circle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282c34;
+    width: 45rem;
+    height: 45rem;
+    shape-outside: circle();
+    clip-path: circle();
+    font-size: 14px;
+}
+
+.devices {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 40rem;
+    height: 40rem;
+    background-color: gold;
+    shape-outside: circle();
+    clip-path: circle();
+    font-size: 14px;
+}

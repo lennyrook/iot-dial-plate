@@ -1,0 +1,23 @@
+.center-circle {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 14rem;
+    background-color: #282c34;
+    shape-outside: circle();
+    clip-path: circle();
+}
+
+.center {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    background-color: transparent;
+    shape-outside: circle();
+    clip-path: circle();
+}
